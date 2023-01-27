@@ -360,7 +360,7 @@ swap2=$(printf '%-5s' "$(free -h | grep -i swap | awk {'print $4'})")
 swap3=$(printf '%-5s' "$(free -h | grep -i swap | awk {'print $3'})")
 clear
 echo -e "\033[1;37m╔════════════════════════════════════════════════════════════╗\033[0m"
-echo -e "\033[1;37m║ \E[37;1;31m                   SCRIPT HIBRIDO @JHONA                  \E[0m \033[1;37m║"
+echo -e "\033[1;37m║ \E[47;1;31m                   SCRIPT HIBRIDO @JHONA                  \E[0m \033[1;37m║"
 echo -e "\033[1;37m╠════════════════════╦═══════════════════╦═══════════════════╣\033[0m"
 echo -e "\033[1;37m║  \033[1;31mSISTEMA           \033[1;37m║  \033[1;31mMEMÓRIA RAM      \033[1;37m║ \033[1;31m PROCESSADOR      \033[1;37m║"
 echo -e "\033[1;37m║  \033[1;31mOS: \033[1;32m$_system    \033[1;37m║  \033[1;31mTotal:\033[1;32m$_ram \033[1;37m║  \033[1;31mNucleos: \033[1;32m$_core\033[0m   \033[1;37m║"
@@ -373,7 +373,7 @@ echo -e "\033[1;37m║ \033[1;36m 4 \033[1;32m  CHECKUSERS \033[1;37m           
 echo -e "\033[1;37m║ \033[1;36m 5 \033[1;32m  LIMITADOR DE USUARIOS \033[1;37m    ║ \033[1;32mTOTAL: \033[38;5;190m$_tuser     \033[1;37m║"
 echo -e "\033[1;37m║ \033[1;36m 6 \033[1;32m  BACKUP \033[1;37m                   ╠══════════════════╝"
 echo -e "\033[1;37m║ \033[1;36m 7 \033[1;32m  FERRAMENTAS  \033[1;37m             ║\033[1;36mSEU IP 👉 \033[38;5;82m$IP\033[1;37m║"
-echo -e "\033[1;37m║ \033[1;36m 8 \033[1;32m  MENU DE BOTS 🤖  \033[1;37m          ╠══════════════════╝"
+echo -e "\033[1;37m║ \033[1;36m 8 \033[1;32m  MENU DE BOTS 🤖  \033[1;37m         ╠══════════════════╝"
 echo -e "\033[1;37m║ \033[1;36m 9 \033[1;32m  GERENCIAR PAINEL WEB \033[1;37m     ║"
 echo -e "\033[1;37m║ \033[1;36m 10 \033[1;32m INFORMAÇÕES DA VPS \033[1;37m       ║"
 echo -e "\033[1;37m║ \033[1;36m 11 \033[1;32m AUTO MENU $autm            \033[1;37m    ║"
