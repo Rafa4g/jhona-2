@@ -1,4 +1,4 @@
-# PAINEL SSH
+# SSH+PAINEL
 
 <br/><br/>
 
