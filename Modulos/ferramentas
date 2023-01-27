@@ -75,7 +75,7 @@
             speedtest
             ;;
             12 | 12)
-            autoexec
+            attscript
             ;;
 			0 | 00)
 			clear
