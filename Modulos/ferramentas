@@ -12,8 +12,9 @@
 	echo -e "\033[1;37m 08 ➡️\033[1;36m BLOQUEAR TORRENT ❌\033[0m"
 	echo -e "\033[1;37m 09 ➡️\033[1;36m TCP-TWEAKER 🚀\033[0m"
 	echo -e "\033[1;37m 10 ➡️\033[1;36m REINICIAR SISTEMA 🔃\033[0m"
-	echo -e "\033[1;37m 11 ➡️\033[1;36m REINICIAR SERVIÇOS 🔃\033[0m"
-	echo -e "\033[1;37m 12 ➡️\033[1;36m SPEEDTEST 🚀\033[0m"
+	echo -e "\033[1;37m 11 ➡️\033[1;36m REINICIAR SERVIÇOS 🔃\033[0m"  
+	echo -e "\033[1;37m 12 ➡️$var01 \033[1;32mATUALIZAR SCRIPT 🔃\033[0m"
+	echo -e "\033[1;37m 13 ➡️\033[1;36m SPEEDTEST 🚀\033[0m"
     echo -e "\033[1;37m 00 ➡️\033[1;31m SAIR \033[0m"
     echo -e "\033[01;31m\033[0m"
 			tput civis
@@ -70,10 +71,10 @@
             reiniciarservicos
             sleep 3s
             ;;
-            12 | 12)
+            13| 13)
             speedtest
             ;;
-            13 | 13)
+            12 | 12)
             autoexec
             ;;
 			0 | 00)
