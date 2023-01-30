@@ -6,6 +6,7 @@
 	echo -e "\033[1;37m 02 ➡️\033[1;36m BOT TESTE 🤖\033[0m"
 	echo -e "\033[1;37m 03 ➡️\033[1;36m BOT WHATSAPP & TELEGRAM 💰\033[0m"
 	echo -e "\033[1;37m 04 ➡️\033[1;36m BOT SMS 📨\033[0m"
+        echo -e "\033[1;37m 05 ➡️\033[1;36m BOT TELEGRAM \033[0m"
     echo -e "\033[1;37m 00 ➡️\033[1;31m SAIR \033[0m"
     echo -e "\033[01;31m\033[0m"
 			tput civis
@@ -25,6 +26,9 @@
             ;;
             4 | 04)
             botsms
+            ;;
+            5 | 05)
+            botssh
             ;;
 			0 | 00)
 			clear
