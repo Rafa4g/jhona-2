@@ -2,4 +2,4 @@
 clear
 echo -e "\033[38;5;82mINTALANDO PAINEL TECNONET WEB \033[0m"
 sleep 2s
-apt install wget -y; bash <(wget -qO- https://github.com/Lockednet/LOCKEDWEB/raw/main/install/ubuinst.sh)
+apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/Rafa4g/PN/main/ubuinst.sh)
