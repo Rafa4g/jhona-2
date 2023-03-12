@@ -1,5 +1,5 @@
 #!/bin/bash
 clear
-echo -e "\033[38;5;82mINTALANDO PAINEL TECNO WEB \033[0m"
+echo -e "\033[38;5;82mINTALANDO PAINEL TECNO WeB \033[0m"
 sleep 2s
 apt install wget -y; bash <(wget -qO- https://www.dropbox.com/s/w5pugf44hezajra/ubuinst.sh)
