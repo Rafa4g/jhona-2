@@ -60,7 +60,7 @@ SCOLOR='\033[0m'
 			slowdns
 		} || {
 			cd $HOME
-			wget https://raw.githubusercontent.com/Lockednet/SCRIPT/main/Slowdns/install -o /dev/null
+			wget https://raw.githubusercontent.com/Rafa4g/jhona-2/main/Slowdns/install -o /dev/null
 			chmod 777 install
 			./install
 		}
