@@ -76,7 +76,7 @@
             speedtest
             ;;
             14| 14)
-            remove
+            delscript
             ;;
             12 | 12)
             attscript
