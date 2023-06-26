@@ -1491,7 +1491,7 @@ exit 0' >$RCLOCAL
 
 	fun_socks() {
 		clear
-		figlet 'SCOTT-PRO' | lolcat
+		figlet 'TECNO - PRO' | lolcat
 		echo -e "\E[44;1;37m            GERENCIAR PROXY SOCKS             \E[0m"
 		echo ""
 		[[ $(netstat -nplt | grep -wc 'python') != '0' ]] && {
@@ -1572,7 +1572,7 @@ exit 0' >$RCLOCAL
         elif [[ "$resposta" = '2' ]]; then
 			if ps x | grep -w wsproxy.py | grep -v grep 1>/dev/null 2>/dev/null; then
 				clear
-				figlet 'SCOTT-PRO' | lolcat
+				figlet 'TECNO - PRO' | lolcat
 				echo -e "\E[41;1;37m             WEBSOCKET              \E[0m"
 				echo ""
 				fun_wssocksoff() {
